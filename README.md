@@ -1,2 +1,6 @@
 ### Описание
-Данная роль устанавливает и запускает [vector](https://vector.dev/)
+Роль для установки vector.
+
+- Установка vector
+- Создание systemd unit Vector
+- Конфигурирование vector на передачу данных в clickhouse
