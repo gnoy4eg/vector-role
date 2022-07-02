@@ -1,4 +1,4 @@
-pipeline {
+spipeline {
     agent {
         label 'linux'
     } 
@@ -10,7 +10,7 @@ pipeline {
         }
         stage('molecule test') {
             steps {
-                sh 'molecule test -s $NAME'
+                sh 'molecule test -s centos'
             }
         }
     }
